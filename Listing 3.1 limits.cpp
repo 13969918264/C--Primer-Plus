@@ -10,7 +10,7 @@
 int main()
 {
     using namespace std;
-    int n_int = TNT_MAX;            //  initialize n_int to max int value
+    int n_int = INT_MAX;            //  initialize n_int to max int value
     short n_short = SHRT_MAX;           //  symbols defined in climits file
     long n_long = LONG_MAX;
     long long n_llong = LLONG_MAX;
@@ -20,7 +20,7 @@ int main()
     cout << "int is " << sizeof n_short << " bytes." << endl;
     cout << "int is " << sizeof n_long << " bytes." << endl;
     cout << "long long is " << sizeof n_llong << " bytes." << endl;
-    cout << engl;
+    cout << endl;
 
     cout << "Maximum values: " << endl;
     cout << "int : " << n_int << endl;
