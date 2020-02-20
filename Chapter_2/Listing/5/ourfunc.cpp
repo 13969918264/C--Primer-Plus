@@ -9,7 +9,7 @@ void simon(int);            //  function prototype for simon
 int main()
 {
     using namespace std;
-    simon(1);           //  call the function
+    simon(3);           //  call the function
     cout << "Pick an integer.";
     int count;
     cin >> count;
