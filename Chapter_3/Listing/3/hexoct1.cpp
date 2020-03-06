@@ -1,0 +1,23 @@
+/*
+    赵子豪@20200306
+*/
+
+//  hexoct1.cpp -- shows hex and octao literals
+
+#include <iostream>
+
+int main(void)
+{
+    using namespace std;
+
+    int chest = 42;         //  decimal integer literal
+    int waist = 0x42;           //  hexadecimal integer literal
+    int inseam = 042;           //  octal interger literal
+
+    cout << "Monsieur cuts a striking figure!\n";
+    cout << "Chest = " << chest << " (42 in decimal)\n";
+    cout << "waist = " << waist << " (0x42 in hex)\n";
+    cout << "inseam = " << inseam << " (042 in octal)\n";
+
+    return 0;
+}
